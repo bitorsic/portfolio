@@ -2,16 +2,15 @@ import type {
   NavBarLink,
   SocialLink,
   Identity,
-  AboutPageContent,
+  ExperiencePageContent,
   ProjectPageContent,
-  BlogPageContent,
   HomePageContent,
 } from "./types/config";
 
 export const identity: Identity = {
-  name: "Tim Witzdam",
-  logo: "/logo.webp",
-  email: "tim@witzdam.com",
+  name: "Yash Jaiswal",
+  logo: "/logo.png",
+  email: "yashjaiswal.cse@gmail.com",
 };
 
 export const navBarLinks: NavBarLink[] = [
@@ -20,44 +19,47 @@ export const navBarLinks: NavBarLink[] = [
     url: "/",
   },
   {
-    title: "About",
-    url: "/about",
+    title: "Experience",
+    url: "/experience",
   },
   {
     title: "Projects",
     url: "/projects",
-  },
-  {
-    title: "Blog",
-    url: "/blog",
   },
 ];
 
 export const socialLinks: SocialLink[] = [
   {
     title: "GitHub",
-    url: "https://github.com/TimWitzdam",
+    url: "https://github.com/bitorsic",
     icon: "mdi:github",
     external: true,
   },
   {
-    title: "Mail",
-    url: "mailto:tim@witzdam.com",
-    icon: "mdi:email",
+    title: "LinkedIn",
+    url: "https://linkedin.com/in/bitorsic",
+    icon: "mdi:linkedin",
+    external: true,
+  },
+  {
+    title: "dev.to",
+    url: "https://dev.to/bitorsic",
+    icon: "mdi:dev-to",
+    external: true,
   },
 ];
 
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
-    title: "Tim Witzdam",
+    title: "Yash Jaiswal",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "Backend Development | Cloud Computing | Cybersecurity",
     image: identity.logo,
   },
-  role: "Student & Software Developer",
+  role: "Computer Engineering Student",
   description:
-    "I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.",
+    "Backend Development | Cloud Computing | Cybersecurity",
   socialLinks: socialLinks,
   links: [
     {
@@ -65,38 +67,21 @@ export const homePageContent: HomePageContent = {
       url: "/projects",
     },
     {
-      title: "About Me",
-      url: "/about",
+      title: "Experience",
+      url: "/experience",
     },
   ],
 };
 
-// About (/about)
-export const aboutPageContent: AboutPageContent = {
+// Experience (/experience)
+export const experiencePageContent: ExperiencePageContent = {
   seo: {
-    title: "About | Tim Witzdam",
+    title: "Experience | Yash Jaiswal",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "Backend Development | Cloud Computing | Cybersecurity",
     image: identity.logo,
   },
-  subtitle: "Some information about myself",
-  about: {
-    description: `
-I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.
-<br/><br/>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat est architecto tempora voluptatem sit suscipit aspernatur? <br/><br/>
-Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium consectetur nemo vero officia itaque.`, // Markdown is supported
-    image_l: {
-      url: "/demo-1.jpg",
-      alt: "Left Picture",
-    },
-    image_r: {
-      url: "/demo-1.jpg",
-      alt: "Right Picture",
-    },
-  },
   work: {
-    description: `I've worked with a variety of technologies and tools to build cool things. Here are some of the projects I've worked on.`, // Markdown is supported
     items: [
       {
         title: "Software Developer",
@@ -131,7 +116,6 @@ export const projectsPageContent: ProjectPageContent = {
     description: "Check out what I've been working on.",
     image: identity.logo,
   },
-  subtitle: "Check out what I've been working on.",
   projects: [
     {
       title: "Project 1",
@@ -155,14 +139,4 @@ export const projectsPageContent: ProjectPageContent = {
       url: "https://github.com/TimWitzdam",
     },
   ],
-};
-
-// Blog (/blog)
-export const blogPageContent: BlogPageContent = {
-  seo: {
-    title: "Blog | Tim Witzdam",
-    description: "Thoughts, stories and ideas.",
-    image: identity.logo,
-  },
-  subtitle: "Thoughts, stories and ideas.",
 };

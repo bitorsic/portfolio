@@ -45,22 +45,9 @@ export type ResumeItem = {
   date: string;
 };
 
-export type AboutPageContent = {
+export type ExperiencePageContent = {
   seo: SEOInfo;
-  subtitle: string;
-  about: {
-    description: string;
-    image_l: {
-      url: string;
-      alt: string;
-    };
-    image_r: {
-      url: string;
-      alt: string;
-    };
-  };
   work: {
-    description: string;
     items: ResumeItem[];
   };
   connect: {
@@ -79,11 +66,5 @@ export type Project = {
 
 export type ProjectPageContent = {
   seo: SEOInfo;
-  subtitle: string;
   projects: Project[];
-};
-
-export type BlogPageContent = {
-  seo: SEOInfo;
-  subtitle: string;
 };
