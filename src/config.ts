@@ -153,6 +153,15 @@ export const experiencePageContent: ExperiencePageContent = {
   work: {
     items: [
       {
+        title: "IT Administrator",
+        company: {
+          name: "Jaiswal Hospital",
+          image: "/company-logos/jaiswal-hospital.jpeg",
+          url: "https://www.linkedin.com/company/jaiswal-hospital",
+        },
+        date: "08/24 - present",
+      },
+      {
         title: "DevOps Engineer Intern",
         company: {
           name: "PearlThoughts",
@@ -226,17 +235,52 @@ export const experiencePageContent: ExperiencePageContent = {
 // Projects (/projects)
 export const projectsPageContent: ProjectPageContent = {
   seo: {
-    title: "Projects | Tim Witzdam",
+    title: "Projects | Yash Jaiswal",
     description: "Backend Development | Cloud Computing | Cybersecurity",
     image: identity.logo,
   },
   projects: [
     {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
+      title: "Chat-Nat",
+      description: "Messaging webapp which implements End-to-End Encryption for all messages",
+      image: "/projects/chat-nat.png",
+      year: "2023",
+      url: "https://chat-nat.onrender.com",
+    },
+    {
+      title: "Konfrens",
+      description: "A video conferencing application with custom room management and in-app messaging",
+      image: "/projects/konfrens.png",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://konfrens.onrender.com",
+    },
+    {
+      title: "Task-inator 3000",
+      description: "A secure ToDo app with AES encryption, JWT auth, and token based blacklisting with Redis",
+      image: "/projects/taskinator-3000.png",
+      year: "2024",
+      url: "https://task-inator-3000.onrender.com",
+    },
+    {
+      title: "Node.js Rate Limiter",
+      description: "A Node.js rate limiter using Redis, designed to control traffic without dropping any requests",
+      image: "/projects/rate-limiter.png",
+      year: "2024",
+      url: "https://github.com/bitorsic/nodejs-rate-limiting",
+    },
+    {
+      title: "Washer Production Backend",
+      description: "Backend for an Inventory Management system for a company that produces washers",
+      image: "/projects/washer-production-backend.png",
+      year: "2023",
+      url: "https://github.com/bitorsic/washer-production-backend",
+    },
+    {
+      title: "Postomania",
+      description: "Backend for a social media platform, where users can create and interact with posts",
+      image: "/projects/postomania.png",
+      year: "2023",
+      url: "https://github.com/bitorsic/postomania",
     },
   ],
 };
