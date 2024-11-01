@@ -56,6 +56,9 @@ export type ExperiencePageContent = {
   work: {
     items: ResumeItem[];
   };
+  education: {
+    items: ResumeItem[];
+  };
 };
 
 export type Project = {
