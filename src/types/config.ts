@@ -11,6 +11,11 @@ export type SocialLink = {
   external?: boolean;
 };
 
+export type Skill = {
+  title: string;
+  icon: string;
+};
+
 export type Identity = {
   name: string;
   logo: string;
@@ -33,6 +38,7 @@ export type HomePageContent = {
     url: string;
     external?: boolean;
   }[];
+  skills: Skill[];
 };
 
 export type ResumeItem = {
@@ -49,10 +55,6 @@ export type ExperiencePageContent = {
   seo: SEOInfo;
   work: {
     items: ResumeItem[];
-  };
-  connect: {
-    description: string;
-    links: SocialLink[];
   };
 };
 

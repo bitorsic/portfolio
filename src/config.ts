@@ -5,6 +5,7 @@ import type {
   ExperiencePageContent,
   ProjectPageContent,
   HomePageContent,
+  Skill,
 } from "./types/config";
 
 export const identity: Identity = {
@@ -49,6 +50,73 @@ export const socialLinks: SocialLink[] = [
   },
 ];
 
+export const skills: Skill[] = [
+  {
+    title: "Golang",
+    icon: "mdi:language-go",
+  },
+  {
+    title: "Node.js",
+    icon: "mdi:nodejs",
+  },
+  {
+    title: "MongoDB",
+    icon: "mdi:leaf",
+  },
+  {
+    title: "SQL",
+    icon: "mdi:database",
+  },
+  {
+    title: "Redis",
+    icon: "mdi:database",
+  },
+  {
+    title: "C++",
+    icon: "mdi:language-cpp",
+  },
+  {
+    title: "TypeScript",
+    icon: "mdi:language-typescript",
+  },
+  {
+    title: "React.js",
+    icon: "mdi:react",
+  },
+  {
+    title: "AWS",
+    icon: "mdi:aws",
+  },
+  {
+    title: "Google Cloud",
+    icon: "mdi:google-cloud",
+  },
+  {
+    title: "Azure",
+    icon: "mdi:microsoft-azure",
+  },
+  {
+    title: "Firebase",
+    icon: "mdi:firebase",
+  },
+  {
+    title: "Python",
+    icon: "mdi:language-python",
+  },
+  {
+    title: "Java",
+    icon: "mdi:language-java",
+  },
+  {
+    title: "Linux",
+    icon: "mdi:linux",
+  },
+  {
+    title: "Cybersecurity",
+    icon: "mdi:server-security",
+  },
+]
+
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
@@ -71,6 +139,7 @@ export const homePageContent: HomePageContent = {
       url: "/experience",
     },
   ],
+  skills,
 };
 
 // Experience (/experience)
@@ -102,10 +171,6 @@ export const experiencePageContent: ExperiencePageContent = {
         date: "2019 - 2021",
       },
     ],
-  },
-  connect: {
-    description: `I'm always interested in meeting new people and learning new things. Feel free to connect with me on any of the following platforms.`, // Markdown is supported
-    links: socialLinks,
   },
 };
 

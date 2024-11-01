@@ -5,14 +5,7 @@ import { homePageContent, identity } from "../config";
 import SocialLink from "../components/SocialLink.astro";
 import Link from "../components/Link.astro";
 import { getCollection } from "astro:content";
-
-const posts = await getCollection("posts");
-posts.sort((a, b) => {
-  const dateA = new Date(a.data.pubDate).getTime();
-  const dateB = new Date(b.data.pubDate).getTime();
-  return dateB - dateA;
-});
-posts.splice(2)
+import SkillBox from "../components/SkillBox.astro";
 ---
 
 <Layout seo={homePageContent.seo}>
@@ -49,6 +42,18 @@ posts.splice(2)
           <Link text={link.title} href={link.url} external={link.external} />
         ))
       }
+    </div>
+  </section>
+  <section class="mt-16 max-w-2xl mx-auto px-6 sm:flex sm:gap-16">
+    <h2 class="mb-8 sm:mb-0 opacity-60">Skills</h2>
+    <div>
+      <div class="grid grid-cols-2 gap-2 group">
+        {
+          homePageContent.skills.map((item) => (
+            <SkillBox {...item} />
+          ))
+        }
+      </div>
     </div>
   </section>
 </Layout>
