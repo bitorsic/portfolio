@@ -11,7 +11,9 @@ import type {
 export const identity: Identity = {
   name: "Yash Jaiswal",
   logo: "/logo.png",
+  picture: "/picture.jpeg",
   email: "yashjaiswal.cse@gmail.com",
+  resume: "https://drive.google.com/file/d/1aybkKNvj1A5CTIcyvVb5DwExDWzGk48J/view"
 };
 
 export const navBarLinks: NavBarLink[] = [

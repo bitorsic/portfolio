@@ -11,9 +11,9 @@ import SkillBox from "../components/SkillBox.astro";
   <section class="mt-10 max-w-2xl mx-auto px-6">
     <h1 class="font-bold text-3xl mb-1">{identity.name}</h1>
     <p class="opacity-60 mb-10">{homePageContent.role}</p>
-    <div class="flex flex-col min-[520px]:flex-row gap-6 mb-8">
+    <div class="flex flex-row gap-6 mb-8">
       <Image
-        src={identity.logo}
+        src={identity.picture}
         alt={identity.name}
         width={100}
         height={100}

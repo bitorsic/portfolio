@@ -117,13 +117,21 @@ const { seo } = Astro.props;
             </div>
           </div>
         </nav>
-        <div>
+        <div class="flex flex-row">
           <a
             href=`mailto:${identity.email}`
             class="block p-2 opacity-60 hover:opacity-100 transition-opacity"
             aria-label="Email"
           >
             <Icon name="mdi:email" width={20} height={20} />
+          </a>
+          <a
+            href={identity.resume}
+            target="_blank"
+            class="block p-2 opacity-60 hover:opacity-100 transition-opacity"
+            aria-label="Email"
+          >
+            <Icon name="mdi:file-document" width={20} height={20} />
           </a>
         </div>
       </div>

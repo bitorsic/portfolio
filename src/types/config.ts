@@ -19,7 +19,9 @@ export type Skill = {
 export type Identity = {
   name: string;
   logo: string;
+  picture: string;
   email: string;
+  resume: string;
 };
 
 export type SEOInfo = {
