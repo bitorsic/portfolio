@@ -154,6 +154,15 @@ export const experiencePageContent: ExperiencePageContent = {
   },
   work: {
     items: [
+       {
+        title: "Backend Developer Intern",
+        company: {
+          name: "Global Kartel",
+          image: "/company-logos/global-kartel.png",
+          url: "https://globalkartel.com",
+        },
+        date: "12/24 - present",
+      },     
       {
         title: "IT Administrator",
         company: {
