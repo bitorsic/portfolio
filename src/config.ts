@@ -127,7 +127,7 @@ export const homePageContent: HomePageContent = {
       "Backend Development | Cloud Computing | Cybersecurity",
     image: identity.logo,
   },
-  role: "Computer Engineering Student",
+  role: "Backend Developer",
   description:
     "Backend Development | Cloud Computing | Cybersecurity",
   socialLinks: socialLinks,
