@@ -25,4 +25,12 @@ import ResumeItem from "../components/ResumeItem.astro";
       </div>
     </div>
   </section>
+  <section class="my-20 mt-16 max-w-2xl mx-auto px-6 sm:flex sm:gap-16">
+    <h2 class="mb-8 sm:mb-0 opacity-60">Volunteering</h2>
+    <div>
+      <div class="grid grid-cols-1 group">
+        {experiencePageContent.volunteering.items.map((item) => <ResumeItem {...item} />)}
+      </div>
+    </div>
+  </section>
 </Layout>

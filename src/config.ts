@@ -45,9 +45,9 @@ export const socialLinks: SocialLink[] = [
     external: true,
   },
   {
-    title: "dev.to",
-    url: "https://dev.to/bitorsic",
-    icon: "mdi:dev-to",
+    title: "Twitch",
+    url: "https://twitch.tv/bitorsic",
+    icon: "mdi:twitch",
     external: true,
   },
 ];
@@ -182,33 +182,6 @@ export const experiencePageContent: ExperiencePageContent = {
         date: "10/23 - 11/23",
       },
       {
-        title: "Technical Team Member",
-        company: {
-          name: "Blockaders Club",
-          image: "/company-logos/blockaders.jpeg",
-          url: "https://www.linkedin.com/company/blockaders-club",
-        },
-        date: "10/23 - present",
-      },
-      {
-        title: "Cloud Lead",
-        company: {
-          name: "GDSC PESMCOE",
-          image: "/company-logos/gdsc.jpeg",
-          url: "https://www.linkedin.com/company/gdsc-pesmcoe",
-        },
-        date: "08/23 - 04/24",
-      },
-      {
-        title: "Technical Team Member",
-        company: {
-          name: "PESMCOE ACM Student Chapter",
-          image: "/company-logos/acm.jpeg",
-          url: "https://www.linkedin.com/company/pesmcoe-acm-student-chapter",
-        },
-        date: "03/23 - 04/23",
-      },
-      {
         title: "Customer Support Intern",
         company: {
           name: "Valethi Technologies",
@@ -238,6 +211,46 @@ export const experiencePageContent: ExperiencePageContent = {
           url: "https://mitwpu.edu.in/",
         },
         date: "2020 - 2022",
+      },
+    ]
+  },
+  volunteering: {
+    items: [
+      {
+        title: "Cloud Lead",
+        company: {
+          name: "GDSC PESMCOE",
+          image: "/company-logos/gdsc.jpeg",
+          url: "https://www.linkedin.com/company/gdsc-pesmcoe",
+        },
+        date: "08/23 - 04/24",
+      },
+      {
+        title: "Technical Team Member",
+        company: {
+          name: "PESMCOE ACM Student Chapter",
+          image: "/company-logos/acm.jpeg",
+          url: "https://www.linkedin.com/company/pesmcoe-acm-student-chapter",
+        },
+        date: "03/23 - 04/23",
+      },
+      {
+        title: "Technical Team Member",
+        company: {
+          name: "Blockaders Club",
+          image: "/company-logos/blockaders.jpeg",
+          url: "https://www.linkedin.com/company/blockaders-club",
+        },
+        date: "10/23 - 04/24",
+      },
+      {
+        title: "Professional Development Director",
+        company: {
+          name: "Rotaract Club of Computers Metro MCOE",
+          image: "/company-logos/rotaract.jpeg",
+          url: "https://www.linkedin.com/company/rotaract-club-of-computers-metro-mcoe",
+        },
+        date: "07/23 - 08/23",
       },
     ]
   }

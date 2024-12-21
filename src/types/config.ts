@@ -61,6 +61,9 @@ export type ExperiencePageContent = {
   education: {
     items: ResumeItem[];
   };
+  volunteering: {
+    items: ResumeItem[];
+  };
 };
 
 export type Project = {
