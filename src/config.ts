@@ -45,9 +45,9 @@ export const socialLinks: SocialLink[] = [
     external: true,
   },
   {
-    title: "Twitch",
-    url: "https://twitch.tv/bitorsic",
-    icon: "mdi:twitch",
+    title: "dev.to",
+    url: "https://dev.to/bitorisc",
+    icon: "mdi:dev-to",
     external: true,
   },
 ];
