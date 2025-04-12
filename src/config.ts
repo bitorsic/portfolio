@@ -161,7 +161,7 @@ export const experiencePageContent: ExperiencePageContent = {
           image: "/company-logos/global-kartel.png",
           url: "https://globalkartel.com",
         },
-        date: "12/24 - present",
+        date: "12/24 - 04/25",
       },     
       {
         title: "IT Administrator",
