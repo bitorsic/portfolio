@@ -163,15 +163,15 @@ export const experiencePageContent: ExperiencePageContent = {
         },
         date: "12/24 - 04/25",
       },     
-      {
-        title: "IT Administrator",
-        company: {
-          name: "Jaiswal Hospital",
-          image: "/company-logos/jaiswal-hospital.jpeg",
-          url: "https://www.linkedin.com/company/jaiswal-hospital",
-        },
-        date: "08/24 - present",
-      },
+      // {
+        // title: "IT Administrator",
+        // company: {
+          // name: "Jaiswal Hospital",
+          // image: "/company-logos/jaiswal-hospital.jpeg",
+          // url: "https://www.linkedin.com/company/jaiswal-hospital",
+        // },
+        // date: "08/24 - present",
+      // },
       {
         title: "DevOps Engineer Intern",
         company: {
