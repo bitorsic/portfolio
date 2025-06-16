@@ -265,6 +265,13 @@ export const projectsPageContent: ProjectPageContent = {
   },
   projects: [
     {
+      title: "Slack Bot with Streaming AI and Observability",
+      description: "Slack bot that streams AI responses via SSE or full responses as JSON",
+      image: "/projects/chat-relay.png",
+      year: "2025",
+      url: "https://github.com/bitorsic/chat-relay",
+    },
+    {
       title: "Secure Chat App with AI Spam and Phishing Detection",
       description: "Messaging webapp with End-to-End Encryption, using custom AI Detection API",
       image: "/projects/chat-nat.png",
