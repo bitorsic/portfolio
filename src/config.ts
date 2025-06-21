@@ -98,12 +98,20 @@ export const skills: Skill[] = [
     icon: "mdi:microsoft-azure",
   },
   {
+    title: "Docker",
+    icon: "mdi:docker",
+  },
+  {
     title: "Firebase",
     icon: "mdi:firebase",
   },
   {
     title: "Python",
     icon: "mdi:language-python",
+  },
+  {
+    title: "FastAPI",
+    icon: "mdi:lightning-bolt-circle",
   },
   {
     title: "Java",
