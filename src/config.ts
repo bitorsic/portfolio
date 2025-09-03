@@ -46,7 +46,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     title: "dev.to",
-    url: "https://dev.to/bitorisc",
+    url: "https://dev.to/bitorsic",
     icon: "mdi:dev-to",
     external: true,
   },
@@ -161,8 +161,16 @@ export const experiencePageContent: ExperiencePageContent = {
     image: identity.logo,
   },
   work: {
-    items: [
-       {
+    items: [{
+        title: "Associate Backend Developer",
+        company: {
+          name: "Global Kartel",
+          image: "/company-logos/global-kartel.png",
+          url: "https://globalkartel.com",
+        },
+        date: "07/25 - present",
+      }, 
+      {
         title: "Backend Developer Intern",
         company: {
           name: "Global Kartel",
